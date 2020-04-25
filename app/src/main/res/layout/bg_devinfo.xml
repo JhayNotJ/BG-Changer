@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:orientation="horizontal"
+	android:id="@+id/customView"
+	android:padding="15dp">
+
+	<ImageView
+		android:layout_width="35dp"
+		android:layout_height="35dp"
+		android:id="@+id/jhayImg"
+		android:adjustViewBounds="true"
+		android:scaleType="fitXY"
+		android:layout_marginRight="12dp"
+		android:padding="6dp"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/jhayDevInfo"
+		android:gravity="center"
+		android:paddingLeft="4dp"
+		android:paddingRight="10dp"
+		android:text="This is test message"
+		android:textSize="18sp"
+		android:shadowColor="#000000"
+		android:textColor="#B4FF00"
+		android:shadowRadius="1.0"
+		android:shadowDx="1.0"
+		android:shadowDy="1.0"
+		android:textStyle="bold"/>
+
+</LinearLayout>
+

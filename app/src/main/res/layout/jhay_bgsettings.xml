@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="™"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_gravity="bottom|left"
+			android:id="@+id/jhaynotj"
+			android:layout_marginBottom="50dp"/>
+
+		<ImageView
+			android:id="@+id/imgView"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1">
+
+		</ImageView>
+
+	</FrameLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="50%"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_gravity="center"
+		android:id="@+id/opctyCount"/>
+
+	<SeekBar
+		android:id="@+id/opacitybar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:max="10"
+		android:progress="10"
+		android:layout_alignTop="@+id/opacitylbl"
+		android:layout_centerHorizontal="true"/>
+
+	<Button
+		android:id="@+id/buttonLoadPicture"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_weight="0"
+		android:onClick="loadImagefromGallery"
+		android:text="Load Picture"
+		android:background="@drawable/jhay_bgbutton"
+		android:layout_margin="10dp"
+		android:textColor="#FFFFFF">
+
+	</Button>
+
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Apply"
+		android:layout_gravity="center"
+		android:onClick="apply"
+		android:background="@drawable/jhay_bgbutton"
+		android:layout_margin="10dp"
+		android:textColor="#FFFFFF"/>
+
+</LinearLayout>
+
